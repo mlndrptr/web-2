@@ -1,0 +1,53 @@
+Nama: Mulandari Putri
+NIM : 0110124132
+Rombel : SI0524
+Praktikum 1 - Pemrograman Web 2
+
+1. Jelaskan apa yang dimaksud dengan dokumen root?
+Jawab: Document Root adalah lokasi folder dimana tempat file website untuk nama domain dari sebuah situs disimpan.
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs?
+Jawab: Tidak, dokumen root pada Apache Web Server tidak harus selalu terletak di C:\xampp\htdocs. Namun, jika menggunakan XAMPP, secara default document root memang berada di C:\xampp\htdocs.
+
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push dan checkout?
+Jawab: 	- git init	: Digunakan untuk membuat repository Git baru di dalam sebuah folder.
+	- git clone 	: Digunakan untuk menduplikasi (mengunduh) repository dari remote repository
+	- git remote	: Digunakan untuk menghubungkan repository lokal dengan repository remote
+	- git add	: Digunakan untuk menambahkan file ke staging area sebelum dilakukan commit.
+	- git commit	: Digunakan untuk menyimpan perubahan ke dalam repository lokal.
+	- git push 	: Digunakan untuk mengirim commit dari repository lokal ke repository remote.
+	- git checkout  : Digunakan untuk berpindah branch atau commit tertentu dalam repository.
+
+4. Jelaskan perbedaan antara GitHub dan GitLab?
+Jawab:	- Biaya: GitHub gratis untuk proyek publik, berbayar untuk private. GitLab gratis untuk proyek publik dan private.
+	- Repositori: GitLab memungkinkan repositori internal dalam paket gratis, sedangkan GitHub hanya public.
+	- Pelacak Masalah (Issue Tracker): GitLab lebih kuat dengan pengeditan massal, sementara GitHub lebih sederhana.
+	- Komunitas: GitHub memiliki komunitas yang jauh lebih besar.
+	- Integrasi: GitHub terintegrasi dengan lebih banyak aplikasi pihak ketiga.
+	- Fokus: GitHub fokus pada kecepatan, GitLab pada reliability dengan banyak branch.
+	- Fitur DevOps: GitLab memiliki CI terintegrasi untuk manajemen siklus hidup pengembangan perangkat lunak.
+
+5. Apa bedanya variable user dengan variable system?
+Jawab:	Variabel user:
+	- Dikelola oleh pengguna.
+	- Spesifik untuk setiap pengguna.
+	- Untuk personalisasi (contoh: preferensi bahasa, tema, path proyek pribadi).
+
+	Variabel system:
+	- Dikelola oleh sistem operasi/aplikasi.
+	- Berlaku untuk seluruh pengguna di sistem.
+	- Untuk konfigurasi sistem (contoh: PATH, OS, path aplikasi sistem).
+
+	Jika ada kendala, variable user diutamakan daripada variable system.
+
+6. Apa persamaan variable system dengan variable constant?
+Jawab: Persamaan antara variabel system dan variabel constant terletak pada sifatnya yang tidak berubah (immutable) selama runtime program atau operasi system.	
+	- Variabel System: Nilainya biasanya ditetapkan oleh sistem atau administrator dan tidak berubah selama sistem berjalan.
+	- Variabel Constant: Nilainya ditetapkan saat deklarasi dan tidak dapat diubah selama eksekusi program.
+Tujuan keduanya digunakan untuk memastikan konsistensi dan menghindari perubahan nilai yang tidak diinginkan.
+Contoh:	
+	- Variabel System: PATH di sistem operasi.
+	- Variabel Constant: const PI = 3.14; dalam kode program.
+Intinya, keduanya sama-sama menjaga nilai tetap, tetapi lingkup dan penggunaannya berbeda.
+
+
